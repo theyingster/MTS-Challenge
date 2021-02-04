@@ -38,10 +38,10 @@ public class MovieTheater {
 
 		// reserves seats if there are enough available seats
 		if (numberOfSeats >= seatsReserved) {
-			if (seatsReserved > 5) {
-				while (seatsReserved > 5) {
-					output = allocate(reservationNumber, 5);
-					seatsReserved -= 5;
+			if (seatsReserved > columns) {
+				while (seatsReserved > columns) {
+					output = allocate(reservationNumber, columns);
+					seatsReserved -= columns;
 				}
 				output = allocate(reservationNumber, seatsReserved);
 			} 
