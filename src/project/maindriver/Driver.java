@@ -1,9 +1,10 @@
-package project.driver;
+package project.maindriver;
 
 import java.io.*;
 import java.util.*;
-import project.IO.*;
+
 import project.movietheater.*;
+import project.util.*;
 
 public class Driver {
 	public static void main(String[] args) {

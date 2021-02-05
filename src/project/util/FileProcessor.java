@@ -1,4 +1,4 @@
-package project.IO;
+package project.util;
 
 import java.io.*;
 import java.util.*;
@@ -64,6 +64,7 @@ public class FileProcessor {
 						str += seats.get(i);
 					}
 				}
+				System.out.println(str);
 				wr.write(str + "\n");
 			}
 			wr.close();
